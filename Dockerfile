@@ -9,7 +9,7 @@ WORKDIR /opt/unified-node-open-mining-portal
 RUN npm update
 RUN rm -rf pool_configs
 RUN rm -rf coins
-RUN rm config_example.json
+RUN rm config.json.example
 
 RUN ln -s /opt/config/config.json /opt/unified-node-open-mining-portal/config.json
 RUN ln -s /opt/config/pool_configs /opt/unified-node-open-mining-portal/pool_configs
