@@ -59,7 +59,7 @@
         "node-bittrex": "https://github.com/n0mad01/node.bittrex.api",
         "node-cryptopia": "https://github.com/sigwo/node-cryptopia",
         "nonce": "1.0.3",
-        "bignum": "0.11.0",
+        "bignum": "*",
         "extend": "3.0.2"
     },
     "engines": {
